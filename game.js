@@ -1,5 +1,5 @@
 
-            var myAge = [28, "twenty eight", "twenty-eight", "twentyeight"];
+            var myAge = 28
             var correctGuess = 0
             var myNumber = 8
             var myNumberCount = 0
@@ -10,7 +10,7 @@
     while (myAge) {
             var guessAge = prompt ("How old am I?")
                 console.log("User has entered the number" + " " + guessAge);
-    if (guessAge == myAge[0] || guessAge.toLowerCase() == myAge[1] || guessAge.toLowerCase() == myAge[2] || guessAge.toLowerCase() == myAge[3] ) {
+    if (guessAge === 28 {
             correctGuess += 1
             myAge = false;
             alert("Alright hot shot, good job.\nNow I'm thinking of a number between 1 and 10.  Can you guess it?");
