@@ -2,7 +2,7 @@ function insertText(insertString) {
   return document.getElementById("answerLog").innerHTML = insertString;
 }
   insertText("Welcome to this REALLY cool page!!!  Let's play some games shall we?  To view this page you must first guess my age.");
-// Age guess while loop //
+// Age guess while loop // 
 var correctGuess = 0
 var myAge = 28
 var chances = 5
