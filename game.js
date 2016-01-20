@@ -62,7 +62,7 @@ if (play === answers) {
 for (var i = 0; i < questionsThree.length; i++) {
   aboutMe(questionsThree[i], questionAnswers[i], threeAnswersCorrect[i], threeAnswersWrong[i]);
 }
-// Silly stuff //
+// Silly stuff - original code //
 function monthPythonGame(question){
   var answer = prompt(question).toLowerCase();
 
