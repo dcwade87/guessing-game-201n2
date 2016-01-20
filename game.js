@@ -78,8 +78,6 @@ if (answer == "holy grail" || answer == "to seek the holy grail") {
 monthPythonGame("Now tell me something about yourself...\nWhat...is your name?")
 monthPythonGame("What...is your quest?")
   var favColor = prompt("What...Is your favorite color?");
-      console.log(answerArr[1] + "'s favorite color is " + favColor.toLowerCase());
-
 if (favColor.toLowerCase() === "purple") {
     correctGuess += 1
     document.title = (answerArr[0].toUpperCase()+("!!!"));
